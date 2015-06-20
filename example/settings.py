@@ -20,7 +20,7 @@ MIDDLEWARE_CLASSES = (
     "django.middleware.csrf.CsrfViewMiddleware"
 )
 
-MEDIA_ROOT = os.path.join(__file__, "media")
+MEDIA_ROOT = os.path.join(os.path.dirname(__file__), "media")
 
 ES_INDEX = "djes-file-fields-example"
 
