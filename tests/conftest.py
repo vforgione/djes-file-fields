@@ -21,4 +21,4 @@ def es_client(request):
             es.indices.delete("{}_*".format(index), ignore=[404])
 
     request.addfinalizer(fin)
-    return es  # provide the fixture value
+    return es
