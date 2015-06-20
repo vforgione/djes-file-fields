@@ -6,9 +6,9 @@ services:
   - elasticsearch
 install:
   - travis_retry pip install -e .
-  - travis_retry pip install file://$(pwd)#egg=djes[dev]
+  - travis_retry pip install file://$(pwd)#egg=djes_file_fields[dev]
 script:
-  - py.test --cov djes --cov-report term-missing
+  - py.test --cov djes_file_fields --cov-report term-missing
 after_success:
   - coveralls
 sudo: false
