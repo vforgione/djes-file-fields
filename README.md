@@ -1,6 +1,7 @@
 # djes-file-fields
 
-> Adding sensible field mappers for django field type fields.
+[![Build Status](https://travis-ci.org/vforgione/djes-file-fields.svg?branch=master)](https://travis-ci.org/vforgione/djes-file-fields)
+[![Coverage Status](https://coveralls.io/repos/vforgione/djes-file-fields/badge.svg)](https://coveralls.io/r/vforgione/djes-file-fields)
 
 
 ## To get started:
